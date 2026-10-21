@@ -27,7 +27,6 @@
 <p>
   <img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android" />
   <img src="https://img.shields.io/badge/Processing-Offline-0A8754?style=flat-square" alt="Offline processing" />
-  <img src="https://img.shields.io/badge/Ads-None-555555?style=flat-square" alt="No ads" />
   <img src="https://img.shields.io/badge/Privacy-First-4263EB?style=flat-square" alt="Privacy first" />
 </p>
 
@@ -45,7 +44,7 @@ It supports `.lsa` encrypted image files and `.lsav` encrypted video files. Decr
 
 > 🔒 **Your media stays on your device.** XiaomiDecryptor is built for offline recovery, not cloud-based processing.
 
-## 🚀 Features at a Glance
+## 🚀 Key Features
 
 <table>
   <tr>
@@ -99,8 +98,8 @@ A minimal layout with Dark Mode and Light Mode switching.
     </td>
     <td width="50%" valign="top">
 
-### 🚫 No Ads or Trackers
-Designed without advertising networks, analytics trackers, or unnecessary background tracking.
+### 📢 Transparent Decryption Flow
+Check the current release notes for the app’s current decryption flow and any ad-supported restrictions.
 
     </td>
   </tr>
@@ -150,7 +149,7 @@ The badges near the top show:
 - **Release Downloads:** downloads recorded for the `MIUIGalleryDecryptor` release.
 - **All Release Downloads:** downloads recorded across releases in this GitHub repository.
 
-GitHub reports asset download counts for release files. These counts can update with a delay and represent downloads—not verified installations, unique people, or downloads from the Indus Appstore. To count downloads accurately, publish the APK/AAB as an asset attached to a GitHub Release; GitHub does not count downloads of files hosted elsewhere.
+The current GitHub release is **XiaomiDecryptor v2.2** and includes the APK asset `XiaomiDecryptor_2.2.apk`. The release-specific badge counts downloads of assets attached to the `MIUIGalleryDecryptor` release; the repository-wide badge totals downloads across releases. Counts may update with a delay and represent asset downloads—not verified installations, unique people, or Indus Appstore downloads.
 
 ## 🛡️ Privacy & Security
 
@@ -159,7 +158,7 @@ GitHub reports asset download counts for release files. These counts can update 
 | **Local processing** | Decryption is intended to run on your Android device. |
 | **No cloud upload** | Selected media is not sent to an external server for decryption. |
 | **No account required** | The core recovery workflow does not require an account login. |
-| **No ads or trackers** | The app is described as having no advertising networks or analytics trackers. |
+| **Decryption flow** | See the current release notes for any ad-supported restrictions or behavior. |
 
 These are descriptions of the app's intended behavior, not an independent security audit. For additional assurance, review app permissions and network activity on your own device.
 
