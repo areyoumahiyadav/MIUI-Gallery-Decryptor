@@ -1,185 +1,134 @@
-￼ 
-
-XiaomiDecryptor
+<div align="center">  <img width="120" alt="XiaomiDecryptor app icon" src="https://github.com/user-attachments/assets/c1408744-0b71-48a0-909c-9f3760ed8714" />  XiaomiDecryptor
 
 Unlock Your Encrypted MIUI Gallery Photos & Videos — Offline
 
 Recover compatible .lsa photos and .lsav videos directly on your Android device.
 
-￼
+<p>  
+  <a href="https://www.indusappstore.com/apps/tools/xiaomidecryptor/com.xiaomi.decryptor/?page=details&id=com.xiaomi.decryptor" target="_blank" rel="noopener noreferrer">  
+    <img width="204" height="60" alt="Download on Indus Appstore" src="https://github.com/user-attachments/assets/d12f7de5-8396-4cf8-b45f-aeffde7468d1" />  
+  </a>  
+</p>  <p>  
+  <a href="https://github.com/areyoumahiyadav/MIUI-Gallery-Decryptor/releases/tag/MIUIGalleryDecryptor">  
+    <img src="https://img.shields.io/badge/Download-GitHub%20Release-24292F?style=for-the-badge&logo=github&logoColor=white" alt="Download from GitHub Releases" />  
+  </a>  
+</p>  
+  <a href="https://github.com/areyoumahiyadav/MIUI-Gallery-Decryptor/releases">  
+    <img src="https://img.shields.io/github/downloads/areyoumahiyadav/MIUI-Gallery-Decryptor/total?style=for-the-badge&logo=github&label=Total%20Downloads" alt="Total Downloads" />  
+  </a>  
+</p>  <p>  
+  <img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android" />  
+  <img src="https://img.shields.io/badge/Processing-Offline-0A8754?style=flat-square" alt="Offline processing" />  
+  <img src="https://img.shields.io/badge/Privacy-First-4263EB?style=flat-square" alt="Privacy first" />  
+</p>  Private media recovery, designed around your device and your privacy.
 
-￼
-
-￼
-
-￼
-
-￼ ￼ ￼
-
-Private media recovery, designed around your device and your privacy.
-
-📖 Table of Contents
-
-About XiaomiDecryptor
-
-Download
-
-Screenshots
-
-Features
-
-Supported File Types
-
-How to Use
-
-Download and Visitor Statistics
-
-Privacy and Security
-
-Responsible Use
-
-Troubleshooting
-
-Issues and Feedback
-
-Developer and Support
+</div>  
+---
 
 ✨ About XiaomiDecryptor
 
 XiaomiDecryptor is an Android utility designed to recover compatible encrypted media created by the private album feature in MIUI Gallery.
 
-It supports .lsa encrypted image files and .lsav encrypted video files. The intended recovery workflow processes selected files locally on your Android device without requiring an account login or cloud-based decryption.
+It supports .lsa encrypted image files and .lsav encrypted video files. The recovery workflow is designed to run locally on your phone, without requiring an account login or cloud-based decryption.
 
-Why XiaomiDecryptor?
+> 🔒 Designed for local recovery: Your selected media is processed on your device when using the app's offline workflow. Review the app's permissions and network behavior if you need to independently verify its privacy properties.
 
-Recover compatible encrypted images and videos.
 
-Preview supported recovered media.
 
-Choose an output destination where supported.
+📸 Screenshot
 
-Work with files directly on your Android device.
+<p align="center">  
+  <img width="100%" alt="XiaomiDecryptor app screenshot" src="https://github.com/user-attachments/assets/46a1b640-daa9-4862-b073-40f97458c3e7" />  
+</p>  ✨ Key Features
 
-Keep original encrypted files available for backup.
+- Encrypted media recovery: Process compatible .lsa image and .lsav video files.
+- Single and batch processing: Select one file or multiple files when supported by the current build.
+- Media signature detection: Identify supported output formats by inspecting decrypted file signatures.
+- Built-in preview: View recovered images and preview supported videos.
+- Custom output location: Choose where recovered files are saved.
+- Save As: Choose a custom name or destination for an individual recovered file, when available.
+- Offline-oriented workflow: Designed to perform the recovery process locally on your Android device.
+- Simple workflow: Select files, choose a destination, decrypt, and review the results.
 
-🔒 Privacy first: The app is designed for local media recovery. Review the installed application's permissions and network behavior if you need to independently verify its privacy properties.
+Feature availability may vary by app version and device. Check the controls in your installed build.
 
-📥 Download
+🗃️ Supported File Types
 
-Choose your preferred download source.
+XiaomiDecryptor detects supported media formats by inspecting the decrypted file signature.
 
-SourceDescriptionGitHub ReleasesBrowse available versions and release assets.Latest GitHub ReleaseOpen the latest published release.Indus AppstoreVisit the app's Indus Appstore listing. 
+Category	Formats
 
-Recommended: Download the APK from an official release source. Before installing an update, verify its publisher and signing certificate when possible.
+Encrypted inputs	.lsa, .lsav
+Images	PNG, JPEG, GIF, BMP, TIFF, WebP, HEIC
+Videos	MP4, MOV, M4V, MKV, AVI, 3GP
 
-📸 Screenshots
 
-￼ 
-
-🚀 Features
-
-Encrypted media recovery: Process compatible .lsa images and .lsav videos.
-
-Single-file processing: Recover individual files where supported.
-
-Batch processing: Process multiple selected files where supported.
-
-Media signature detection: Identify supported output formats using file signatures.
-
-Built-in preview: View recovered images and preview compatible videos.
-
-Output destination: Select a location for recovered media where available.
-
-Save As: Customize the filename or destination when the installed version supports this option.
-
-Offline-oriented workflow: Designed to perform media recovery locally on your Android device.
-
-Simple interface: Select, decrypt, preview, and save.
-
-Feature availability may vary by release and device. Refer to the installed app and release notes for the functionality available in your version.
-
-🗂️ Supported File Types
-
-CategoryExtensions or formatsEncrypted input files.lsa, .lsavImagesPNG, JPEG, GIF, BMP, TIFF, WebP, HEICVideosMP4, MOV, M4V, MKV, AVI, 3GP 
-
-The output format is determined by the decrypted file's contents and the app's format-detection capabilities. The listed formats are not a guarantee that every file can be recovered.
-
-Compatibility depends on the source file, its integrity, and the supported decryption implementation.
+Compatibility depends on the source file and the app's supported decryption and format-detection behavior. Not every file using these extensions is guaranteed to be recoverable.
 
 🧭 How to Use
 
-Select encrypted files. Open XiaomiDecryptor and select the compatible .lsa or .lsav files you want to recover.
+1. Select encrypted files
+   Tap Select .lsa / .lsav Files and choose one or more compatible files from your device storage.
 
-Choose an output location. Select the destination folder if that option is available in your version.
+2. Choose an output folder
+   Use Files path (CHANGE), if available in your build, to select the destination for recovered media.
 
-Start recovery. Use the available decryption control for an individual file or a batch.
+3. Start decryption
+   Use Decrypt File for an individual item or Decrypt All for a batch, depending on the controls available in your version.
 
-Preview the result. Open the recovered image or preview the supported video.
+4. Preview recovered media
+   Open a recovered image or play a supported video in the built-in viewer.
 
-Save and verify. Confirm that the recovered file exists in the output location and opens correctly.
+5. Save your files
+   Check the selected output folder for recovered media. Use Save As for a custom filename or destination if that option is available.
 
-💡 Important: Back up your original encrypted files before recovery. Do not delete the originals until you have verified the recovered copies.
+> 💡 Before you begin: Keep an untouched backup of your original encrypted files. Do not delete the originals until you have verified the recovered copies.
 
-🛡️ Privacy and Security
 
-PrincipleDescriptionLocal recoveryThe intended workflow processes selected media on the device.Cloud uploadsThe app is intended for local recovery rather than server-side media decryption.Account accessThe core workflow is not described as requiring an account login.File permissionsGrant only the access necessary to select and save files.Original filesKeep a backup of encrypted originals until recovery is verified. 
 
-These statements describe the intended workflow and are not an independent security audit. Check the permissions, network behavior, and release notes of your installed version to verify its actual behavior.
+🛡️ Privacy & Security
+
+Principle	Description
+
+Local processing	The recovery workflow is designed to process selected media on your Android device.
+Cloud upload	The app is intended for local recovery rather than uploading selected media for server-side decryption.
+Account	The core recovery workflow is not described as requiring an account login.
+Permissions	Review Android permissions and grant only the access needed to select and save files.
+
+
+These statements describe the intended workflow and are not an independent security audit. For additional assurance, review the installed app's permissions and network activity on your own device. Refer to the current release notes for any version-specific restrictions or ad-supported behavior.
 
 ⚖️ Responsible Use
 
-XiaomiDecryptor is intended only for recovering files you own or are legally authorized to access.
+XiaomiDecryptor is intended only for recovering files you own or are legally authorized to access. Respect other people's privacy and do not attempt to access private media without permission.
 
-Respect other people's privacy.
+Always back up your original files before processing them.
 
-Do not attempt to access private media without permission.
+If a file cannot be recovered, it may be incompatible, incomplete, damaged, or unsupported by the current version. Keep the original file and consult the release notes before trying again.
 
-Keep original files backed up.
-
-Verify recovered files before deleting any originals.
-
-Recovery may fail when a file is damaged, incomplete, incompatible, or unsupported by the installed release.
-
-🧰 Troubleshooting
-
-ProblemSuggested actionFile cannot be decryptedVerify the file extension, source, and integrity.Recovered file will not openCheck whether its format is supported and whether recovery completed successfully.Output file is missingVerify the selected destination and storage permissions.Batch processing failsTry one file at a time to identify the incompatible input.Download badge has not updatedAllow for caching and verify the current count on GitHub Releases.Visitor count is not updatingVerify that the counter backend is deployed, its endpoint is reachable, and the badge URL is correct. 
-
-🐛 Issues and Feedback
+🐛 Issues & Feedback
 
 For bug reports, compatibility problems, or feature suggestions:
 
-Open a GitHub issue
+- Open an issue on GitHub
+- Review GitHub Releases
+- Contact the developer using the details below.
 
-Browse GitHub Releases
+When reporting a problem, include your Android version, app version, input extension (.lsa or .lsav), and a description of what happened. Do not attach private photos or videos; share only information you are comfortable making public.
 
-When reporting an issue, include:
-
-Android version
-
-XiaomiDecryptor version
-
-Input extension (.lsa or .lsav)
-
-Steps to reproduce the problem
-
-Error messages, if any
-
-Do not attach private photos or videos to public issues. Share only diagnostic information you are comfortable making public.
-
-👨‍💻 Developer and Support
+👨‍💻 Developer & Support
 
 Jangili Mahesh (MahiYadav)
 
-✉️ Email: maheshyadavjangili@gmail.com
+- ✉️ Email: maheshyadavjangili@gmail.com
+- 🐙 GitHub: @areyoumahiyadav
+- 📱 Indus Appstore: XiaomiDecryptor app page
 
-🐙 GitHub: @areyoumahiyadav
 
-📱 Indus Appstore: XiaomiDecryptor
+---
 
-For source code, updates, and release assets, visit the XiaomiDecryptor repository.
-
-🔐 XiaomiDecryptor
+<div align="center">  🔐 XiaomiDecryptor
 
 Your media. Your device. Your privacy.
 
-Made for offline recovery of compatible MIUI Gallery media.
+<sub>Made for offline recovery of compatible MIUI Gallery media.</sub>
