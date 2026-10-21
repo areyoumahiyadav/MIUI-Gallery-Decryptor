@@ -1,6 +1,8 @@
 Unlock Your Encrypted MIUI Gallery Photos & Videos Offline
 
-​MIUI Gallery Decryptor is a clean, privacy-focused Android utility designed to recover compatible .lsa (encrypted image) and .lsav (encrypted video) files created by MIUI Gallery's private album feature. Every step happens locally on your phone—no internet connection, account login, or cloud upload required.
+
+
+​XiaomiDecryptor is a clean, privacy-focused Android utility designed to recover compatible .lsa (encrypted image) and .lsav (encrypted video) files created by MIUI Gallery's private album feature. Every step happens locally on your phone—no internet connection, account login, or cloud upload required.
 
 **​Key Features:-**
 
