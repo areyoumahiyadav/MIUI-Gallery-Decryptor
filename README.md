@@ -99,22 +99,6 @@ Compatibility depends on the source file and the app's supported decryption and 
 
 > 💡 **Before you begin:** Keep an untouched backup of your original encrypted files. Do not delete the originals until you have verified the recovered copies.
 
-## ⬇️ Download
-
-Choose your preferred source:
-
-- **[Indus Appstore](https://www.indusappstore.com/apps/tools/xiaomidecryptor/com.xiaomi.decryptor/?page=details&id=com.xiaomi.decryptor)** — open the XiaomiDecryptor app listing.
-- **[GitHub Releases](https://github.com/areyoumahiyadav/MIUI-Gallery-Decryptor/releases)** — review available builds and release notes.
-- **[Latest tagged release](https://github.com/areyoumahiyadav/MIUI-Gallery-Decryptor/releases/tag/MIUIGalleryDecryptor)** — open the release associated with the `MIUIGalleryDecryptor` tag.
-
-Download only from sources you trust, and check the release notes for version-specific changes or known limitations.
-
-### 📊 About the download counters
-
-- **Release Downloads** counts downloads of assets attached to the specified GitHub release tag.
-- **All Release Downloads** counts downloads of assets across GitHub releases in this repository.
-- These counters do **not** measure unique users, successful installations, or downloads from the Indus Appstore.
-
 ## 🛡️ Privacy & Security
 
 | Principle | Description |
