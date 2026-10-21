@@ -7,19 +7,28 @@
 **Recover compatible `.lsa` photos and `.lsav` videos directly on your Android device.**
 
 <p>
-  <a href="https://www.indusappstore.com/apps/tools/xiaomidecryptor/com.xiaomi.decryptor/?page=details&id=com.xiaomi.decryptor">
-    <img src="https://img.shields.io/badge/Get%20it-Indus%20Appstore-6C4CE8?style=for-the-badge&logo=android&logoColor=white" alt="Get XiaomiDecryptor on Indus Appstore">
+  <a href="https://www.indusappstore.com/apps/tools/xiaomidecryptor/com.xiaomi.decryptor/?page=details&id=com.xiaomi.decryptor" target="_blank" rel="noopener noreferrer">
+    <img width="204" height="60" alt="Download on Indus Appstore" src="https://github.com/user-attachments/assets/d12f7de5-8396-4cf8-b45f-aeffde7468d1" />
   </a>
   <a href="https://github.com/areyoumahiyadav/MIUI-Gallery-Decryptor/releases/tag/MIUIGalleryDecryptor">
-    <img src="https://img.shields.io/badge/Download-GitHub%20Release-24292F?style=for-the-badge&logo=github&logoColor=white" alt="Download from GitHub Releases">
+    <img src="https://img.shields.io/badge/Download-GitHub%20Release-24292F?style=for-the-badge&logo=github&logoColor=white" alt="Download from GitHub Releases" />
   </a>
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android">
-  <img src="https://img.shields.io/badge/Processing-Offline-0A8754?style=flat-square" alt="Offline processing">
-  <img src="https://img.shields.io/badge/Ads-None-555555?style=flat-square" alt="No ads">
-  <img src="https://img.shields.io/badge/Privacy-First-4263EB?style=flat-square" alt="Privacy first">
+  <a href="https://github.com/areyoumahiyadav/MIUI-Gallery-Decryptor/releases/tag/MIUIGalleryDecryptor">
+    <img src="https://img.shields.io/github/downloads/areyoumahiyadav/MIUI-Gallery-Decryptor/MIUIGalleryDecryptor?style=for-the-badge&logo=github&label=Release%20Downloads" alt="GitHub release downloads" />
+  </a>
+  <a href="https://github.com/areyoumahiyadav/MIUI-Gallery-Decryptor/releases">
+    <img src="https://img.shields.io/github/downloads/areyoumahiyadav/MIUI-Gallery-Decryptor/total?style=for-the-badge&logo=github&label=All%20Release%20Downloads" alt="Total GitHub release downloads" />
+  </a>
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android" />
+  <img src="https://img.shields.io/badge/Processing-Offline-0A8754?style=flat-square" alt="Offline processing" />
+  <img src="https://img.shields.io/badge/Ads-None-555555?style=flat-square" alt="No ads" />
+  <img src="https://img.shields.io/badge/Privacy-First-4263EB?style=flat-square" alt="Privacy first" />
 </p>
 
 *Private media recovery, designed around your device and your privacy.*
@@ -134,6 +143,15 @@ XiaomiDecryptor detects supported media formats by inspecting the decrypted file
 
 > 💡 **Before you begin:** Keep an untouched backup of your original encrypted files.
 
+## 📊 GitHub Download Counter
+
+The badges near the top show:
+
+- **Release Downloads:** downloads recorded for the `MIUIGalleryDecryptor` release.
+- **All Release Downloads:** downloads recorded across releases in this GitHub repository.
+
+GitHub reports asset download counts for release files. These counts can update with a delay and represent downloads—not verified installations, unique people, or downloads from the Indus Appstore. To count downloads accurately, publish the APK/AAB as an asset attached to a GitHub Release; GitHub does not count downloads of files hosted elsewhere.
+
 ## 🛡️ Privacy & Security
 
 | Principle | What it means |
@@ -157,12 +175,11 @@ XiaomiDecryptor is intended only for recovering files you own or are legally aut
 
 ### Choose your download source
 
-<a href="https://www.indusappstore.com/apps/tools/xiaomidecryptor/com.xiaomi.decryptor/?page=details&id=com.xiaomi.decryptor">
-  <img src="https://img.shields.io/badge/Indus%20Appstore-View%20App-6C4CE8?style=for-the-badge&logo=android&logoColor=white" alt="View on Indus Appstore">
+<a href="https://www.indusappstore.com/apps/tools/xiaomidecryptor/com.xiaomi.decryptor/?page=details&id=com.xiaomi.decryptor" target="_blank" rel="noopener noreferrer">
+  <img width="204" height="60" alt="Download on Indus Appstore" src="https://github.com/user-attachments/assets/d12f7de5-8396-4cf8-b45f-aeffde7468d1" />
 </a>
-
 <a href="https://github.com/areyoumahiyadav/MIUI-Gallery-Decryptor/releases/tag/MIUIGalleryDecryptor">
-  <img src="https://img.shields.io/badge/GitHub-Releases-24292F?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Releases">
+  <img src="https://img.shields.io/badge/GitHub-Releases-24292F?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Releases" />
 </a>
 
 </div>
