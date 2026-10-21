@@ -12,15 +12,20 @@ Recover compatible `.lsa` photos and `.lsav` videos directly on your Android dev
   <a href="https://www.indusappstore.com/apps/tools/xiaomidecryptor/com.xiaomi.decryptor/?page=details&id=com.xiaomi.decryptor" target="_blank" rel="noopener noreferrer">
     <img width="204" height="60" alt="Download on Indus Appstore" src="https://github.com/user-attachments/assets/d12f7de5-8396-4cf8-b45f-aeffde7468d1" />
   </a>
-  </p>
+</p>
+
 <p>
   <a href="https://github.com/areyoumahiyadav/MIUI-Gallery-Decryptor/releases/tag/MIUIGalleryDecryptor">
     <img src="https://img.shields.io/badge/Download-GitHub%20Release-24292F?style=for-the-badge&logo=github&logoColor=white" alt="Download from GitHub Releases" />
   </a>
 </p>
 
-<a href="https://github.com/areyoumahiyadav/MIUI-Gallery-Decryptor/releases">
-    <img src="https://img.shields.io/github/downloads/areyoumahiyadav/MIUI-Gallery-Decryptor/total?style=for-the-badge&logo=github&label=Total%20Downloads" alt="Total Downloads" />
+<p>
+  <a href="https://github.com/areyoumahiyadav/MIUI-Gallery-Decryptor/releases">
+    <img src="https://img.shields.io/github/downloads/areyoumahiyadav/MIUI-Gallery-Decryptor/MIUIGalleryDecryptor?style=for-the-badge&logo=github&label=Release%20Downloads" alt="Release Downloads" />
+  </a>
+  <a href="https://github.com/areyoumahiyadav/MIUI-Gallery-Decryptor/releases">
+    <img src="https://img.shields.io/github/downloads/areyoumahiyadav/MIUI-Gallery-Decryptor/total?style=for-the-badge&logo=github&label=All%20Release%20Downloads" alt="All Release Downloads" />
   </a>
 </p>
 
@@ -38,72 +43,30 @@ Recover compatible `.lsa` photos and `.lsav` videos directly on your Android dev
 
 ## ✨ About XiaomiDecryptor
 
-**XiaomiDecryptor** is a clean, privacy-focused Android utility for recovering compatible encrypted media created by the private album feature in MIUI Gallery.
+**XiaomiDecryptor** is an Android utility designed to recover compatible encrypted media created by the private album feature in MIUI Gallery.
 
-It supports `.lsa` encrypted image files and `.lsav` encrypted video files. Decryption and preview workflows are designed to run locally on your phone—without an account login or cloud upload.
+It supports `.lsa` encrypted image files and `.lsav` encrypted video files. The recovery workflow is designed to run locally on your phone, without requiring an account login or cloud-based decryption.
 
-> 🔒 **Your media stays on your device.** XiaomiDecryptor is built for offline recovery, not cloud-based processing.
+> 🔒 **Designed for local recovery:** Your selected media is processed on your device when using the app's offline workflow. Review the app's permissions and network behavior if you need to independently verify its privacy properties.
 
-## 🚀 Key Features
+## 📸 Screenshot
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
+<p align="center">
+  <img width="100%" alt="XiaomiDecryptor app screenshot" src="https://github.com/user-attachments/assets/46a1b640-daa9-4862-b073-40f97458c3e7" />
+</p>
 
-### 🔐 Offline Decryption
-Process compatible `.lsa` and `.lsav` files locally using the app's AES-128-CTR decryption workflow.
+## ✨ Key Features
 
-    </td>
-    <td width="50%" valign="top">
+- **Encrypted media recovery:** Process compatible `.lsa` image and `.lsav` video files.
+- **Single and batch processing:** Select one file or multiple files when supported by the current build.
+- **Media signature detection:** Identify supported output formats by inspecting decrypted file signatures.
+- **Built-in preview:** View recovered images and preview supported videos.
+- **Custom output location:** Choose where recovered files are saved.
+- **Save As:** Choose a custom name or destination for an individual recovered file, when available.
+- **Offline-oriented workflow:** Designed to perform the recovery process locally on your Android device.
+- **Simple workflow:** Select files, choose a destination, decrypt, and review the results.
 
-### 📦 Batch Recovery
-Select one file or queue multiple photos and videos for batch decryption and export.
-
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-
-### 🧠 Smart Format Detection
-Inspect decrypted file signatures (magic bytes) to identify supported formats and restore suitable extensions and MIME types.
-
-    </td>
-    <td width="50%" valign="top">
-
-### 🖼️ Preview Before Saving
-View photos in a full-screen pinch-to-zoom viewer and play recovered videos in the built-in player.
-
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-
-### 🗂️ Queue Management
-See selected files, file sizes, and `IMG` / `VID` badges. Add files or remove individual items before processing.
-
-    </td>
-    <td width="50%" valign="top">
-
-### 💾 Flexible Export
-Choose a preferred output folder for batch saves, or use **Save As** to choose a custom destination and filename.
-
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-
-### 🌙 Clean Interface
-A minimal layout with Dark Mode and Light Mode switching.
-
-    </td>
-    <td width="50%" valign="top">
-
-### 📢 Transparent Decryption Flow
-Check the current release notes for the app’s current decryption flow and any ad-supported restrictions.
-
-    </td>
-  </tr>
-</table>
+*Feature availability may vary by app version and device. Check the controls in your installed build.*
 
 ## 🗃️ Supported File Types
 
@@ -115,60 +78,71 @@ XiaomiDecryptor detects supported media formats by inspecting the decrypted file
 | **Images** | PNG, JPEG, GIF, BMP, TIFF, WebP, HEIC |
 | **Videos** | MP4, MOV, M4V, MKV, AVI, 3GP |
 
-*Compatibility depends on the source file and the app's supported decryption and format-detection behavior. Not every file using these extensions is guaranteed to be recoverable.*
+Compatibility depends on the source file and the app's supported decryption and format-detection behavior. Not every file using these extensions is guaranteed to be recoverable.
 
 ## 🧭 How to Use
-
-<div align="center">
-
-**Select → Choose Destination → Decrypt → Preview → Save**
-
-</div>
 
 1. **Select encrypted files**  
    Tap **Select .lsa / .lsav Files** and choose one or more compatible files from your device storage.
 
-2. **Choose your output folder**  
-   Tap **Files path (CHANGE)** to set your preferred destination for recovered media.
+2. **Choose an output folder**  
+   Use **Files path (CHANGE)**, if available in your build, to select the destination for recovered media.
 
 3. **Start decryption**  
-   Use **Decrypt File** for an individual item or **Decrypt All** for a batch, depending on the available controls.
+   Use **Decrypt File** for an individual item or **Decrypt All** for a batch, depending on the controls available in your version.
 
 4. **Preview recovered media**  
-   Open a recovered image or play a video in the built-in viewer.
+   Open a recovered image or play a supported video in the built-in viewer.
 
 5. **Save your files**  
-   Export recovered media to your chosen location. Use **Save As** when you want a custom name or destination for an individual file.
+   Check the selected output folder for recovered media. Use **Save As** for a custom filename or destination if that option is available.
 
-> 💡 **Before you begin:** Keep an untouched backup of your original encrypted files.
+> 💡 **Before you begin:** Keep an untouched backup of your original encrypted files. Do not delete the originals until you have verified the recovered copies.
 
-## 📊 GitHub Download Counter
+## ⬇️ Download
 
-The badges near the top show:
+Choose your preferred source:
 
-- **Release Downloads:** downloads recorded for the `MIUIGalleryDecryptor` release.
-- **All Release Downloads:** downloads recorded across releases in this GitHub repository.
+- **[Indus Appstore](https://www.indusappstore.com/apps/tools/xiaomidecryptor/com.xiaomi.decryptor/?page=details&id=com.xiaomi.decryptor)** — open the XiaomiDecryptor app listing.
+- **[GitHub Releases](https://github.com/areyoumahiyadav/MIUI-Gallery-Decryptor/releases)** — review available builds and release notes.
+- **[Latest tagged release](https://github.com/areyoumahiyadav/MIUI-Gallery-Decryptor/releases/tag/MIUIGalleryDecryptor)** — open the release associated with the `MIUIGalleryDecryptor` tag.
 
-The current GitHub release is **XiaomiDecryptor v2.2** and includes the APK asset `XiaomiDecryptor_2.2.apk`. The release-specific badge counts downloads of assets attached to the `MIUIGalleryDecryptor` release; the repository-wide badge totals downloads across releases. Counts may update with a delay and represent asset downloads—not verified installations, unique people, or Indus Appstore downloads.
+Download only from sources you trust, and check the release notes for version-specific changes or known limitations.
+
+### 📊 About the download counters
+
+- **Release Downloads** counts downloads of assets attached to the specified GitHub release tag.
+- **All Release Downloads** counts downloads of assets across GitHub releases in this repository.
+- These counters do **not** measure unique users, successful installations, or downloads from the Indus Appstore.
 
 ## 🛡️ Privacy & Security
 
-| Principle | What it means |
+| Principle | Description |
 |---|---|
-| **Local processing** | Decryption is intended to run on your Android device. |
-| **No cloud upload** | Selected media is not sent to an external server for decryption. |
-| **No account required** | The core recovery workflow does not require an account login. |
-| **Decryption flow** | See the current release notes for any ad-supported restrictions or behavior. |
+| **Local processing** | The recovery workflow is designed to process selected media on your Android device. |
+| **Cloud upload** | The app is intended for local recovery rather than uploading selected media for server-side decryption. |
+| **Account** | The core recovery workflow is not described as requiring an account login. |
+| **Permissions** | Review Android permissions and grant only the access needed to select and save files. |
 
-These are descriptions of the app's intended behavior, not an independent security audit. For additional assurance, review app permissions and network activity on your own device.
+These statements describe the intended workflow and are not an independent security audit. For additional assurance, review the installed app's permissions and network activity on your own device. Refer to the current release notes for any version-specific restrictions or ad-supported behavior.
 
 ## ⚖️ Responsible Use
 
-XiaomiDecryptor is intended only for recovering files you own or are legally authorized to access. Respect other people's privacy and do not attempt to access their private media without permission.
+XiaomiDecryptor is intended only for recovering files you own or are legally authorized to access. Respect other people's privacy and do not attempt to access private media without permission.
 
 **Always back up your original files before processing them.**
 
-Check the release page for the available build and release notes.
+If a file cannot be recovered, it may be incompatible, incomplete, damaged, or unsupported by the current version. Keep the original file and consult the release notes before trying again.
+
+## 🐛 Issues & Feedback
+
+For bug reports, compatibility problems, or feature suggestions:
+
+- [Open an issue on GitHub](https://github.com/areyoumahiyadav/MIUI-Gallery-Decryptor/issues)
+- [Review GitHub Releases](https://github.com/areyoumahiyadav/MIUI-Gallery-Decryptor/releases)
+- Contact the developer using the details below.
+
+When reporting a problem, include your Android version, app version, input extension (`.lsa` or `.lsav`), and a description of what happened. **Do not attach private photos or videos**; share only information you are comfortable making public.
 
 ## 👨‍💻 Developer & Support
 
@@ -177,8 +151,6 @@ Check the release page for the available build and release notes.
 - ✉️ **Email:** [maheshyadavjangili@gmail.com](mailto:maheshyadavjangili@gmail.com)
 - 🐙 **GitHub:** [@areyoumahiyadav](https://github.com/areyoumahiyadav)
 - 📱 **Indus Appstore:** [XiaomiDecryptor app page](https://www.indusappstore.com/apps/tools/xiaomidecryptor/com.xiaomi.decryptor/?page=details&id=com.xiaomi.decryptor)
-
-For questions, bug reports, or compatibility feedback, contact the developer or open an issue in the project repository.
 
 ---
 
