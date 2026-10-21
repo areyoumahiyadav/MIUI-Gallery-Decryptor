@@ -19,13 +19,8 @@ Recover compatible `.lsa` photos and `.lsav` videos directly on your Android dev
     <img src="https://img.shields.io/badge/Download-GitHub%20Release-24292F?style=for-the-badge&logo=github&logoColor=white" alt="Download from GitHub Releases" />
   </a>
 </p>
-
-<p>
   <a href="https://github.com/areyoumahiyadav/MIUI-Gallery-Decryptor/releases">
-    <img src="https://img.shields.io/github/downloads/areyoumahiyadav/MIUI-Gallery-Decryptor/MIUIGalleryDecryptor?style=for-the-badge&logo=github&label=Release%20Downloads" alt="Release Downloads" />
-  </a>
-  <a href="https://github.com/areyoumahiyadav/MIUI-Gallery-Decryptor/releases">
-    <img src="https://img.shields.io/github/downloads/areyoumahiyadav/MIUI-Gallery-Decryptor/total?style=for-the-badge&logo=github&label=All%20Release%20Downloads" alt="All Release Downloads" />
+    <img src="https://img.shields.io/github/downloads/areyoumahiyadav/MIUI-Gallery-Decryptor/total?style=for-the-badge&logo=github&label=Total%20Downloads" alt="All Release Downloads" />
   </a>
 </p>
 
