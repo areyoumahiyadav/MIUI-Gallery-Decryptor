@@ -21,7 +21,6 @@ Recover compatible `.lsa` photos and `.lsav` videos directly on your Android dev
 </p>
 
 [![Get it on Orion Store](https://raw.githubusercontent.com/RookieEnough/Orion-Store/refs/heads/main/assets/orion-badge.png)](https://rookieenough.github.io/Orion-Data/redirect.html?id=xiaomidecryptor)
-
   <a href="https://github.com/areyoumahiyadav/MIUI-Gallery-Decryptor/releases">
     <img src="https://img.shields.io/github/downloads/areyoumahiyadav/MIUI-Gallery-Decryptor/total?style=for-the-badge&logo=github&label=Total%20Downloads" alt="All Release Downloads" />
   </a>
