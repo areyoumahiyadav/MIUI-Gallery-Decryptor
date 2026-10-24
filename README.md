@@ -7,18 +7,13 @@
 **Unlock Your Encrypted MIUI Gallery Photos & Videos — Offline**
 
 Recover compatible `.lsa` photos and `.lsav` videos directly on your Android device.
-
-<p>
   <a href="https://www.indusappstore.com/apps/tools/xiaomidecryptor/com.xiaomi.decryptor/?page=details&id=com.xiaomi.decryptor" target="_blank" rel="noopener noreferrer">
     <img width="204" height="60" alt="Download on Indus Appstore" src="https://github.com/user-attachments/assets/d12f7de5-8396-4cf8-b45f-aeffde7468d1" />
   </a>
-</p>
 
-<p>
   <a href="https://github.com/areyoumahiyadav/MIUI-Gallery-Decryptor/releases/tag/MIUIGalleryDecryptor">
     <img src="https://img.shields.io/badge/Download-GitHub%20Release-24292F?style=for-the-badge&logo=github&logoColor=white" alt="Download from GitHub Releases" />
   </a>
-</p>
 
 [![Get it on Orion Store](https://raw.githubusercontent.com/RookieEnough/Orion-Store/refs/heads/main/assets/orion-badge.png)](https://rookieenough.github.io/Orion-Data/redirect.html?id=xiaomidecryptor)
   <a href="https://github.com/areyoumahiyadav/MIUI-Gallery-Decryptor/releases">
